@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="vendors/css/bootstrap.css">
+	<script src="vendors/js/bootstrap.bundle.js"></script>
+	<title>Bootstrap</title>
+</head>
+
+<body>
+	<header class="header">
+		<nav class="navbar navbar-expand-lg bg-info">
+			<div class="container">
+				<a class="navbar-brand text-black-75" href="#">Start Bootstrap</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link text-black-75" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-black-75" href="#">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-black-75" href="#">Contact</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link text-black-75 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false"> Portfolio</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link text-black-75 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false"> Blog</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link text-black-75 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false"> Other Pages</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="promo carousel slide" id="carouselExampleCaptions" data-bs-ride="false">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+				class="active border border-white rounded-circle" style="width: 0.5rem; height: 0.5rem; background: none;"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+				class="border border-white rounded-circle" style="width: 0.5rem; height: 0.5rem; background: none;"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+				class="border border-white rounded-circle" style="width: 0.5rem; height: 0.5rem; background: none;"
+				aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="https://picsum.photos/1920/640" class="d-block w-100" alt="slide pic">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Slide One</h5>
+					<p style="text-shadow: 2px 2px 5px black;">Caption 1</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="https://picsum.photos/1920/640" class="d-block w-100" alt="slide pic">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Slide two</h5>
+					<p style="text-shadow: 2px 2px 5px black;">Caption 2</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="https://picsum.photos/1920/640" class="d-block w-100" alt="slide pic">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Slide Three</h5>
+					<p style="text-shadow: 2px 2px 5px black;">Caption 3</p>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<div class="cards container pt-5">
+		<h1>Welcome to Modern Bussiness</h1>
+		<hr>
+		<div class="row pt-3">
+			<div class="col-lg-4 pt-lg-0 pt-2">
+				<div class="card">
+					<h5 class="card-title p-3 bg-primary bg-opacity-25">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg"
+							viewBox="0 0 16 16">
+							<path
+								d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+						</svg> Bootstrap v5.2.0
+					</h5>
+					<div class="card-body">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sint distinctio
+							dolore obcaecati ullam exercitationem voluptas ea ad et laboriosam accusantium quod quos, facilis
+							quidem!
+						</p>
+						<a href="#" class="btn btn-danger">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 pt-lg-0 pt-2">
+				<div class="card">
+					<h5 class="card-title p-3 bg-primary bg-opacity-25">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gift-fill"
+							viewBox="0 0 16 16">
+							<path
+								d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z" />
+						</svg> Free & Open Source
+					</h5>
+					<div class="card-body">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sint distinctio
+							dolore obcaecati ullam exercitationem voluptas ea ad et laboriosam accusantium quod quos, facilis
+							quidem!
+						</p>
+						<a href="#" class="btn btn-success">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 pt-lg-0 pt-2">
+				<div class="card">
+					<h5 class="card-title p-3 bg-primary bg-opacity-25">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass"
+							viewBox="0 0 16 16">
+							<path
+								d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+							<path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+						</svg> Easy to Use
+					</h5>
+					<div class="card-body">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sint distinctio
+							dolore obcaecati ullam exercitationem voluptas ea ad et laboriosam accusantium quod quos, facilis
+							quidem!
+						</p>
+						<a href="#" class="btn btn-success">Learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pics container pt-5 pb-5">
+		<h2>Portfolio Heading</h2>
+		<hr>
+		<div class="row">
+			<div class="col-lg-4 pt-lg-0 pt-4">
+				<img src="https://picsum.photos/700/450" class="card-img rounded-2" alt="pic">
+			</div>
+			<div class="col-lg-4 pt-lg-0 pt-4">
+				<img src="https://picsum.photos/700/450" class="card-img rounded-2" alt="pic">
+			</div>
+			<div class="col-lg-4 pt-lg-0 pt-4">
+				<img src="https://picsum.photos/700/450" class="card-img rounded-2" alt="pic">
+			</div>
+			<div class="col-lg-4 pt-4">
+				<img src="https://picsum.photos/700/450" class="card-img rounded-2" alt="pic">
+			</div>
+			<div class="col-lg-4 pt-4">
+				<img src="https://picsum.photos/700/450" class="card-img rounded-2" alt="pic">
+			</div>
+			<div class="col-lg-4 pt-4">
+				<img src="https://picsum.photos/700/450" class="card-img rounded-2" alt="pic">
+			</div>
+		</div>
+	</div>
+
+	<div class="content container pt-3">
+		<h2>Modern Business Features</h2>
+		<hr>
+		<div class="row pt-2 pb-2">
+			<div class="col-lg-6">
+				<p>The Modern Business Template by Start Bootstrap includes:</p>
+				<ul>
+					<li>Boostrap v5.2.0</li>
+					<li>jQuery v1.11.0</li>
+					<li>Font Awesome v4.1.0</li>
+					<li>Working PHP contact form with validation</li>
+					<li>Unstyled page elements for easy customization</li>
+					<li>17 HTML pages</li>
+				</ul>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam laudantium quos quam ipsam delectus esse
+					velit ipsa soluta corrupti non inventore sit, cumque voluptatem maxime sequi eius nobis earum assumenda.</p>
+			</div>
+			<div class="col-lg-6">
+				<img src="https://picsum.photos/700/450" class="card-img" alt="pic">
+			</div>
+		</div>
+	</div>
+
+	<div class="action container">
+		<hr>
+		<div class="p-3 d-flex align-items-center justify-content-between bg-dark bg-opacity-25">
+			<p class="mb-0 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem commodi suscipit fuga
+				labore,
+				sequi ipsum
+				placeat sit molestias esse quo.</p>
+			<button class="btn btn-warning w-25 h-25" type="button">Call to Action</button>
+		</div>
+		<hr>
+	</div>
+
+	<footer class="footer">
+		<div class="foooter container p-4">
+			<p>Copyright &#169 Your Website 2014</p>
+		</div>
+	</footer>
+</body>
+
+</html>
